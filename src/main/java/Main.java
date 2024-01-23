@@ -12,7 +12,7 @@ public class Main {
 		}
 	}
 	
-	public int findFirstVowel(String sWord)
+	public static int findFirstVowel(String sWord)
 	{
 	  for (int i = 0; i < sWord.length(); i++)
 	  {
@@ -23,7 +23,7 @@ public class Main {
 	  return -1;
 	}
 
-	public String pigLatin(String sWord)
+	public static String pigLatin(String sWord)
 	{
 	  if(findFirstVowel(sWord) == 0)
 	  {return sWord + "way";}

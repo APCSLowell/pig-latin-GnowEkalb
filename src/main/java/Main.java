@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(final String[] args) {
 		PigLatin sim = new PigLatin();
-        	String[] lines = {"words.txt"};
+        	String[] lines = loadstrings{"words.txt"};
 		System.out.println("there are " + lines.length + " lines");
 		for (int i = 0 ; i < lines.length; i++) 
 		{

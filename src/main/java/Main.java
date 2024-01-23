@@ -5,7 +5,7 @@ public class Main {
 	public static void main(final String[] args) {
 		PigLatin sim = new PigLatin();
         	String[] lines = {"beast","dough","happy","question","star","three","eagle","try"};
-		System.out.println("there are " + lines.length + " lines");
+		//System.out.println("there are " + lines.length + " lines");
 		for (int i = 0 ; i < lines.length; i++) 
 		{
 			System.out.println(pigLatin(lines[i]));
